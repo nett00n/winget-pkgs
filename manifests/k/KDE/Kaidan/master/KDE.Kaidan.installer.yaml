@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: KDE.Kaidan
 PackageVersion: master
@@ -9,15 +9,15 @@ ProductCode: Kaidan
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4935-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 2F17FD7E0697336319F0409D7E27AB71EBEAC23F25C8B35D5CF92E534CDE6AB3
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-5417-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 92BB80045BA7042DBAF4E360F4A07DCCE2EE02DEB778186B584FE6C9BBF3F4A1
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4935-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 2F17FD7E0697336319F0409D7E27AB71EBEAC23F25C8B35D5CF92E534CDE6AB3
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-5417-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 92BB80045BA7042DBAF4E360F4A07DCCE2EE02DEB778186B584FE6C9BBF3F4A1
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.9.0
+ManifestVersion: 1.10.0
